@@ -22,7 +22,6 @@ body {
 .cabecalho .titulo {
 	font-size: 50px;
 	border-radius: 10px;
-	border: 2px solid #fff;
 	text-decoration: underline;
 	text-align: center;
 	text-shadow: 3px 0 0 #000;
@@ -35,7 +34,6 @@ body {
 
 .cabecalho a:hover .titulo {
 	color: #FF9100;
-	border: 2px solid #FF9100;
 }
 
 
