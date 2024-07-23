@@ -1,0 +1,73 @@
+body {
+	background-image: url("../IMG/img-fundo.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.projetos {
+	padding: 70px 0 70px;
+}
+
+.cabecalho {
+	display: block;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 15px;
+
+}
+
+.cabecalho .titulo {
+	font-size: 50px;
+	border-radius: 10px;
+	text-decoration: underline;
+	text-align: center;
+	text-shadow: 3px 0 0 #000;
+	line-height: 50px;
+	transition: 0.2s;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.cabecalho a:hover .titulo {
+	color: #FF9100;
+	
+}
+
+
+
+.projetos .container-projetos {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+.projetos .projeto {
+	max-width: 370px;
+	position: relative;
+	display: block;
+}
+
+.projetos .projeto.ativo {
+	display: block;
+}
+
+.projetos .projeto img {
+	height: 100%;
+}
+
+.projetos .projeto h3 {
+	background-color: #040203;
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: absolute;
+	bottom: 0;
+}
